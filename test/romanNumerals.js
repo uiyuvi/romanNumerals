@@ -15,6 +15,9 @@ describe('roman numerals', function () {
     it('should return III for 3', function () {
         assert.equal(convert(3), 'III');
     });
+    it('should return IV for 4', function () {
+        assert.equal(convert(4), 'IV');
+    });
 });
 
 
