@@ -7,15 +7,12 @@ describe('roman numerals', function () {
         return romanNumerals.convert(number);
     }
     it('should return I for 1', function () {
-
         assert.equal(convert(1), 'I');
     });   
     it('should return II for 2', function () {
-
         assert.equal(convert(2), 'II');
     });
     it('should return III for 3', function () {
-
         assert.equal(convert(3), 'III');
     });
 });
