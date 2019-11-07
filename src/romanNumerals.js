@@ -15,7 +15,10 @@ class RomanNumerals {
             return romans[1].repeat(number);
         }
 
-        return romans[5] + this.convert(number - 5);
+        if(number < 9){
+            return romans[5] + this.convert(number - 5);
+        }
+        return romans[10] + this.convert(number - 10);
 
     }
 }

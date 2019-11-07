@@ -17,7 +17,8 @@ describe('roman numerals', function () {
             { input: 7, expected: "VII" },
             { input: 8, expected: "VIII" },
             { input: 9, expected: "IX" },
-            { input: 10, expected: "X" }
+            { input: 10, expected: "X" },
+            { input: 11, expected: "XI" }
         ];
 
         testValues.forEach(function (test) {
@@ -28,6 +29,7 @@ describe('roman numerals', function () {
         );
 
     });
+    
 });
 
 
