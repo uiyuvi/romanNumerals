@@ -14,7 +14,7 @@ class RomanNumerals {
             return romans[1].repeat(number);
         }
 
-        return romans[5] + romans[1].repeat(number - 5);
+        return romans[5] + this.convert(number - 5);
 
     }
 }
