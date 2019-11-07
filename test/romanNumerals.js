@@ -6,7 +6,7 @@ describe('roman numerals', function () {
     function convert(number) {
         return romanNumerals.convert(number);
     }
-    describe('single digit romans', () => {
+    describe('convert romans from 1 - 10', () => {
         var testValues = [
             { input: 1, expected: "I" },
             { input: 2, expected: "II" },
@@ -16,7 +16,8 @@ describe('roman numerals', function () {
             { input: 6, expected: "VI" },
             { input: 7, expected: "VII" },
             { input: 8, expected: "VIII" },
-            { input: 9, expected: "IX" }
+            { input: 9, expected: "IX" },
+            { input: 10, expected: "X" }
         ];
 
         testValues.forEach(function (test) {
