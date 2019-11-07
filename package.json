@@ -1,0 +1,14 @@
+{
+  "name": "kata-js-start",
+  "version": "1.0.0",
+  "description": "A repository to start code katas fast",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "devDependencies": {
+    "mocha": "5.0.5",
+    "chai": "4.1.2"
+  },
+  "author": "Nelis Boucké",
+  "license": "ISC"
+}
