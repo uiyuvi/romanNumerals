@@ -18,7 +18,14 @@ describe('roman numerals', function () {
             { input: 8, expected: "VIII" },
             { input: 9, expected: "IX" },
             { input: 10, expected: "X" },
-            { input: 11, expected: "XI" }
+            { input: 11, expected: "XI" },
+            { input: 12, expected: "XII" },
+            { input: 13, expected: "XIII" },
+            { input: 14, expected: "XIV" },
+            { input: 15, expected: "XV" },
+            { input: 16, expected: "XVI" },
+            { input: 17, expected: "XVII" },
+            { input: 18, expected: "XVIII" }
         ];
 
         testValues.forEach(function (test) {
