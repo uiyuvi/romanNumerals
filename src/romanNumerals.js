@@ -1,13 +1,13 @@
 class RomanNumerals{
     convert(number){
-        if(number === 5){
-            return 'V';
-        }
-        
-        if(number < 4){
-            return 'I'.repeat(number);
-        }
-        return 'IV';
+        var romans = {
+            1 : "I",
+            2 : "II",
+            3 : "III",
+            4 : "IV",
+            5 : "V"
+        };
+        return romans[number];
     }
 }
 module.exports = RomanNumerals;
