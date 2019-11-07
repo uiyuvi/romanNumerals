@@ -21,6 +21,9 @@ describe('roman numerals', function () {
     it('should return V for 5', function () {
         assert.equal(convert(5), 'V');
     });
+    it('should return VI for 6', function () {
+        assert.equal(convert(6), 'VI');
+    });
 });
 
 

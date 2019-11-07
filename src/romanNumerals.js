@@ -5,7 +5,8 @@ class RomanNumerals{
             2 : "II",
             3 : "III",
             4 : "IV",
-            5 : "V"
+            5 : "V",
+            6 : "VI"
         };
         return romans[number];
     }
