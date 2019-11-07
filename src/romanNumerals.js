@@ -1,5 +1,9 @@
 class RomanNumerals{
     convert(number){
+        if(number === 5){
+            return 'V';
+        }
+        
         if(number < 4){
             return 'I'.repeat(number);
         }

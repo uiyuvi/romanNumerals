@@ -18,6 +18,9 @@ describe('roman numerals', function () {
     it('should return IV for 4', function () {
         assert.equal(convert(4), 'IV');
     });
+    it('should return V for 5', function () {
+        assert.equal(convert(5), 'V');
+    });
 });
 
 
